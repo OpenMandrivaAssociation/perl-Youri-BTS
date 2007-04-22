@@ -1,6 +1,6 @@
 %define module	Youri-BTS
 %define name	perl-%{module}
-%define version 0.1.0
+%define version 0.1.1
 %define release %mkrel 1
 
 Name:		%{name}
@@ -46,5 +46,3 @@ rm -rf %{buildroot}
 %doc ChangeLog README
 %{perl_vendorlib}/Youri
 %{_mandir}/man3/*
-
-
