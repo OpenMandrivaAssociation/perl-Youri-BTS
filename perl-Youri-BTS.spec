@@ -1,7 +1,7 @@
 %define module	Youri-BTS
 %define name	perl-%{module}
 %define version 0.1.1
-%define release %mkrel 1
+%define release %mkrel 2
 
 Name:		%{name}
 Version:	%{version}
@@ -15,6 +15,7 @@ Obsoletes:  youri
 %if %{mdkversion} < 1010
 Buildrequires:	perl-devel
 %endif
+Requires:       perl-version
 BuildArch:	    noarch
 BuildRoot:	    %{_tmppath}/%{name}-%{version}
 
