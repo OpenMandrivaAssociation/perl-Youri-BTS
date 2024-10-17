@@ -7,7 +7,7 @@ Summary:	Youri BTS interface
 License:	GPL or Artistic
 Group:		Development/Other
 Source:		http://youri.zarb.or/download/%{module}-v%{version}.tar.bz2
-Url:		http://youri.zarb.org
+Url:		https://youri.zarb.org
 BuildRequires:	perl-devel
 Requires:	perl(version)
 BuildArch:	noarch
